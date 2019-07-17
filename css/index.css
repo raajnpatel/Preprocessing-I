@@ -86,7 +86,7 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 62.5%;
   font: inherit;
   vertical-align: baseline;
 }
@@ -140,7 +140,6 @@ html {
   background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
 }
 body {
   max-width: 1000px;
@@ -156,7 +155,7 @@ h2 {
   font-size: 2rem;
 }
 header {
-  background: aqua;
+  background: transparent;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -164,6 +163,7 @@ header {
 }
 header a {
   text-decoration: none;
+  color: white;
   font-family: "Acme", sans-serif;
   font-size: 1.7rem;
 }
@@ -174,12 +174,97 @@ header .headerImg {
   height: 80px;
   width: 80px;
 }
-section {
+.sectionTop {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  margin: 4%;
+}
+.sectionTop h1 {
+  text-align: center;
+}
+.sectionTop h2 {
+  text-align: center;
+}
+.topBot {
+  margin: 0 8%;
+  display: flex;
+  margin-bottom: 3%;
   justify-content: space-evenly;
 }
-.sectionTop {
-  align-items: center;
-  justify-content: space-around;
+.topBot .topImg {
+  background-image: url('../images/pic01.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 194px;
+  width: 350px;
 }
+.topBot p {
+  font-family: "Indie Flower", cursive;
+  font-size: 1rem;
+  padding: 1%;
+  border-radius: 10px;
+  background: rebeccapurple;
+  width: 45%;
+}
+.sectionMid {
+  display: flex;
+  width: 95%;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.sectionMid .textLeft {
+  width: 45%;
+}
+.sectionMid p {
+  font-family: "Indie Flower", cursive;
+  font-size: 1rem;
+  padding: 1%;
+  border-radius: 10px;
+  background: rebeccapurple;
+  width: 80%;
+}
+.sectionMid h3 {
+  font-family: "Righteous", cursive;
+  font-size: 1.2rem;
+}
+.talents {
+  width: 50%;
+}
+/* Container for skill bars */
+.skill {
+  width: 100%;
+  /* Full width */
+  background-color: #ddd;
+  /* Grey background */
+}
+.skills {
+  text-align: right;
+  /* Right-align text */
+  padding-top: 10px;
+  /* Add top padding */
+  padding-bottom: 10px;
+  /* Add bottom padding */
+  color: white;
+  /* White text color */
+}
+.htmla {
+  width: 90%;
+  background-color: #4CAF50;
+}
+/* Green */
+.css {
+  width: 80%;
+  background-color: #2196F3;
+}
+/* Blue */
+.js {
+  width: 65%;
+  background-color: #f44336;
+}
+/* Red */
+.php {
+  width: 60%;
+  background-color: #808080;
+}
+/* Dark Grey */
