@@ -202,6 +202,7 @@ header .headerImg {
 }
 .topBot p {
   font-family: "Indie Flower", cursive;
+  color: ghostwhite;
   font-size: 1rem;
   padding: 1%;
   border-radius: 10px;
@@ -219,12 +220,11 @@ header .headerImg {
 }
 .sectionMid p {
   font-family: "Indie Flower", cursive;
+  color: ghostwhite;
   font-size: 1rem;
-  align-content: center;
   padding: 1%;
   border-radius: 10px;
   background: rebeccapurple;
-  height: 40%;
   width: 45%;
 }
 .sectionMid h3 {
@@ -233,6 +233,27 @@ header .headerImg {
 }
 .talents {
   width: 50%;
+}
+.sectionBot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sectionBot .workHistory {
+  display: flex;
+  width: 100%;
+  background-color: #ddd;
+  height: 50px;
+}
+.sectionBot p {
+  font-family: "Indie Flower", cursive;
+  color: ghostwhite;
+  font-size: 1rem;
+  padding: 1%;
+  border-radius: 10px;
+  background: rebeccapurple;
+  width: 45%;
 }
 /* Container for skill bars */
 .skill {
@@ -252,22 +273,22 @@ header .headerImg {
   /* White text color */
 }
 .htmla {
-  width: 90%;
+  width: 80%;
   background-color: #4CAF50;
 }
 /* Green */
 .css {
-  width: 80%;
+  width: 70%;
   background-color: #2196F3;
 }
 /* Blue */
 .js {
-  width: 65%;
+  width: 15%;
   background-color: #f44336;
 }
 /* Red */
 .php {
-  width: 60%;
+  width: 100%;
   background-color: #808080;
 }
 /* Dark Grey */
