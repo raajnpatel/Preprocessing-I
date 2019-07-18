@@ -190,7 +190,8 @@ header .headerImg {
   margin: 0 8%;
   display: flex;
   margin-bottom: 3%;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
 }
 .topBot .topImg {
   background-image: url('../images/pic01.jpg');
@@ -209,9 +210,9 @@ header .headerImg {
 }
 .sectionMid {
   display: flex;
-  width: 95%;
-  justify-content: space-evenly;
-  margin: auto;
+  justify-content: space-around;
+  margin: 2%;
+  align-items: center;
 }
 .sectionMid .textLeft {
   width: 45%;
@@ -219,10 +220,12 @@ header .headerImg {
 .sectionMid p {
   font-family: "Indie Flower", cursive;
   font-size: 1rem;
+  align-content: center;
   padding: 1%;
   border-radius: 10px;
   background: rebeccapurple;
-  width: 80%;
+  height: 40%;
+  width: 45%;
 }
 .sectionMid h3 {
   font-family: "Righteous", cursive;
