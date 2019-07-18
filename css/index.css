@@ -129,7 +129,6 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
   box-sizing: border-box;
-  border: 1px solid red !important;
 }
 html,
 body {
@@ -246,6 +245,28 @@ header .headerImg {
   background-color: #ddd;
   height: 50px;
 }
+.sectionBot .workHistory .babySit {
+  width: 22.22%;
+  background-color: yellow;
+}
+.sectionBot .workHistory .vetTech {
+  width: 44.44%;
+  background-color: orange;
+}
+.sectionBot .workHistory .motel {
+  width: 16.66%;
+  background-color: mediumpurple;
+}
+.sectionBot .workHistory .sThree {
+  width: 16.66%;
+  background-color: turquoise;
+}
+.sectionBot .workHistory .job {
+  font-family: "Righteous", cursive;
+  font-size: 1.2rem;
+  text-align: center;
+  height: 60px;
+}
 .sectionBot p {
   font-family: "Indie Flower", cursive;
   color: ghostwhite;
@@ -289,6 +310,6 @@ header .headerImg {
 /* Red */
 .php {
   width: 100%;
-  background-color: #808080;
+  background-color: orange;
 }
 /* Dark Grey */
