@@ -129,6 +129,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
   box-sizing: border-box;
+  border: 1px solid red !important;
 }
 html,
 body {
@@ -137,14 +138,12 @@ body {
 }
 html {
   background-image: url("../images/background.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-size: auto 200%;
+  background-repeat: no-repeat;
 }
 body {
   max-width: 1000px;
-  margin: 8% auto;
+  margin: 4% auto;
   font-size: 62.5%;
 }
 h1 {
@@ -195,11 +194,12 @@ header .headerImg {
   align-items: center;
 }
 .topBot .topImg {
-  display: flex;
-  align-items: center;
   background-image: url('../images/pic01.jpg');
+  margin-top: 3%;
   background-repeat: no-repeat;
   background-size: contain;
+  height: 226px;
+  width: 300px;
   transform: rotate(90deg);
 }
 .topBot p {

@@ -58,10 +58,15 @@ table {
 	width: 45%;
 }
 
+.font-smallpop() {
+	font-family: "Righteous", cursive;
+	font-size: 1.2rem;
+}
+
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
-	//border: 1px solid red !important;
+	border: 1px solid red !important;
 }
 
 html, body {
@@ -70,16 +75,14 @@ html, body {
 }
 html {
 	background-image: url("../images/background.jpg");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	background-size: auto 200%;
+	background-repeat: no-repeat;
 	//height: 100%;
 }
 
 body {
 	max-width: 1000px;
-	margin: 8% auto;
+	margin: 4% auto;
 	font-size: 62.5%;
 }
 
@@ -134,10 +137,12 @@ header {
 	align-items: center;
 	.topImg {
 		background-image: url('../images/pic01.jpg');
+		margin-top: 3%;
 		background-repeat: no-repeat;
 		background-size: contain;
-		height: 194px;
-		width: 350px;
+		height: 226px;
+		width: 300px;
+		transform: rotate(90deg);
 	}
 	p {
 		.font-paragraph();
@@ -156,8 +161,7 @@ header {
 			.font-paragraph();
 		}
 	h3 {
-		font-family: "Righteous", cursive;
-		font-size: 1.2rem;
+		.font-smallpop();
 	}
 }
 .talents {
@@ -180,8 +184,7 @@ header {
 				.motel {width: 16.66%; background-color: mediumpurple;}
 				.sThree {width: 16.66%; background-color: turquoise;}
 			.job {
-				font-family: "Righteous", cursive;
-				font-size: 1.2rem;
+				.font-smallpop();
 				text-align: center;
 				height: 60px;
 			}
